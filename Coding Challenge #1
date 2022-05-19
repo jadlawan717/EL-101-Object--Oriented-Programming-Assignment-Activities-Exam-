@@ -6,19 +6,19 @@ const Car = function(brand, accelerate, brake)
 
 
   };
-  const ford = new Car('ford', 120, 50);
-  console.log(ford);
+  const honda = new Car('Honda', 120, 50);
+  console.log(Honda);
 
   Car.prototype.calcSpeed = function(){
      console.log(10 = this.accelerate);
   }
-  ford.calcSpeed();
+  honda.calcSpeed();
 
-  const nissan = new Car('Nissan', 85, 60);
+  const mercedes = new Car('Mercedes', 95, 50);
 
-  console.log(nissan)
+  console.log(mercedes)
 
   Car.prototype.calcSpeed = function() {
     console.log(5 - this.accelerate);
   };
-  nissan.calcSpeed();
+  mercedes.calcSpeed();
