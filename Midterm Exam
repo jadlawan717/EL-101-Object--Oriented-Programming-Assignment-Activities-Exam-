@@ -1,32 +1,18 @@
-class CarCl {
-    constructor(cname, speed, charge) {
-  this.cname = cname;
-  this.speed = speed;
-  this.charge = charge;
-  // Accelerate function
-  this.accelerate = function() {
-  this.speed += 20;
-  this.charge -= 1;
-  };
-  // Brake function
-  this.brake = function() {
-  this.speed -= 5;
-  this.charge += 0.5;
-  };
-    };
-  get speeds() {
-  let currentspeed = this.speed / 1.6;
-  return currentspeed + " mi/h";
-  }
-  get speedJS() {
-  let current = this.speed / 1.6;
-  let currentspeed = current * 1.6;
-  return currentspeed + " mi/h";
-  }
-};
 
-let Innov = new CarCl('Innov', 120, 23);
+1. False
+2.
+const object1 = { a: 5 }; 
+const object 2= object1;
+const object 3= object 2;
+const object 4= {a;5};
+object1.a=4;
+Value is 4
 
-Innov.accelerate(); // Accelerate 
-Innov.brake();
-console.log(Innov);
+3. class Animal {
+constructor(name, type, color){
+this.name =name;
+this. type = type;
+this. color= color;
+}
+}
+ 
